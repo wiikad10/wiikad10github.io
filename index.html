@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rida | Portfolio</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo">Rida<span>.</span></div>
+
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+
+          <li><a href="#about">About</a></li>
+
+          <li><a href="#skills">Skills</a></li>
+
+          <li><a href="#projects">Projects</a></li>
+
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="nav-icons">
+          <i class="fa-solid fa-moon" id="theme-btn"></i>
+
+          <i class="fa-solid fa-bars" id="menu-btn"></i>
+        </div>
+      </nav>
+    </header>
+
+    <section id="home" class="hero">
+      <div class="hero-text">
+        <h3>Hello 👋 I'm</h3>
+
+        <h1>Rida</h1>
+
+        <h2><span id="typing"></span></h2>
+
+        <p>
+          I'm a first-year Development Digital student at OFPPT. I enjoy
+          building modern and responsive websites using HTML, CSS and
+          JavaScript.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn">View Projects</a>
+
+          <a href="#" class="btn btn-outline"> Download CV </a>
+        </div>
+
+        <div class="socials">
+          <a href="#"><i class="fab fa-github"></i></a>
+
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+
+          <a href="#"><i class="fab fa-facebook"></i></a>
+
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+
+      <div class="hero-image">
+        <img src="images/profile.png" alt="profile" />
+      </div>
+    </section>
+
+    <section id="about">
+      <h2 class="section-title">About Me</h2>
+
+      <div class="about-container">
+        <div class="about-image">
+          <img src="images/profile.png" />
+        </div>
+
+        <div class="about-text">
+          <p>
+            I'm passionate about web development and constantly improving my
+            programming skills. Currently learning:
+          </p>
+
+          <ul>
+            <li>HTML5</li>
+
+            <li>CSS3</li>
+
+            <li>JavaScript</li>
+
+            <li>PHP</li>
+
+            <li>MySQL</li>
+
+            <li>Git & GitHub</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2 class="section-title">Skills</h2>
+
+      <div class="skills">
+        <div class="skill">
+          <div class="skill-info">
+            <span>HTML</span>
+
+            <span>95%</span>
+          </div>
+
+          <div class="bar">
+            <div class="progress html"></div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-info">
+            <span>CSS</span>
+
+            <span>90%</span>
+          </div>
+
+          <div class="bar">
+            <div class="progress css"></div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-info">
+            <span>JavaScript</span>
+
+            <span>80%</span>
+          </div>
+
+          <div class="bar">
+            <div class="progress js"></div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-info">
+            <span>PHP</span>
+
+            <span>70%</span>
+          </div>
+
+          <div class="bar">
+            <div class="progress php"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2 class="section-title">Projects</h2>
+
+      <div class="projects-container">
+        <div class="card">
+          <img src="images/project1.png" />
+
+          <h3>Mini E-commerce</h3>
+
+          <p>Responsive shopping website.</p>
+
+          <a href="#" class="btn-small"> GitHub </a>
+        </div>
+
+        <div class="card">
+          <img src="images/project2.png" />
+
+          <h3>Weather App</h3>
+
+          <p>Weather API application.</p>
+
+          <a href="#" class="btn-small"> GitHub </a>
+        </div>
+
+        <div class="card">
+          <img src="images/project3.png" />
+
+          <h3>Student Manager</h3>
+
+          <p>CRUD application.</p>
+
+          <a href="#" class="btn-small"> GitHub </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2 class="section-title">Contact Me</h2>
+
+      <form>
+        <input type="text" placeholder="Your Name" />
+
+        <input type="email" placeholder="Your Email" />
+
+        <textarea placeholder="Message"></textarea>
+
+        <button class="btn">Send Message</button>
+      </form>
+    </section>
+
+    <!--================ FOOTER ================-->
+
+    <footer>
+      <p>© 2026 Rida | All Rights Reserved.</p>
+    </footer>
+
+    <button id="topBtn">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
